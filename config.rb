@@ -49,6 +49,18 @@ helpers do
       "?u=3fcd98d64025f034a082fe384&id=bb907d9e18"
   end
 
+  def cfp_url
+    'https://goo.gl/forms/iObfuLgTJOwl8ovm2'
+  end
+
+  def tickets_url
+    "https://eriedayofcode.ticketleap.com/2017/dates/Jun-16-2017_at_0845AM"
+  end
+
+  def jenny_photo?(speaker)
+    speaker.name == 'Jenny Liu'
+  end
+
   def social_links
     OpenStruct.new(
       twitter: data.info.twitter_url,
