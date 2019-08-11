@@ -8,5 +8,6 @@ source 'https://rubygems.org'
 
 # Middleman Gems
 gem 'middleman', '>= 4.3.4'
+
 #gem 'middleman-livereload'
 #gem 'pry'
